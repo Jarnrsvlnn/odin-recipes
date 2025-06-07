@@ -2,14 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
+
+li, a { 
+    color: white
+}
+
 
 body {
     background-color: rgb(189,126,74);
 }
 
 main {
-    display: flex;
+    display: flex;;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -29,7 +35,29 @@ main {
 }
 
 .recipes-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px; 
     background-color: rgb(131, 88, 52);
     width: 80%;
+    height: auto;   
+}
+
+.recipes-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    padding: 1rem;
+}
+.recipe {
+    background-color: brown;
+    width: 80%;
+    font-size: 1.5rem;
     height: auto;
+    border-radius: 10px;
 }
