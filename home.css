@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(189,126,74);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgb(131, 88, 52);
+    width: 80%;
+    height: auto;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    margin-top: 1rem;
+}
+
+.recipes-section {
+    background-color: rgb(131, 88, 52);
+    width: 80%;
+    height: auto;
+}
