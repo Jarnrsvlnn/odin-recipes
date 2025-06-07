@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 li, a { 
@@ -24,7 +25,6 @@ main {
 
 .title {
     font-size: 2rem;
-    font-family: 'Trebuchet MS', sans-serif;
     background-color: rgb(131, 88, 52);
     width: 80%;
     height: auto;
@@ -55,7 +55,7 @@ main {
     padding: 1rem;
 }
 .recipe {
-    background-color: brown;
+    background-color: rgb(90, 59, 34);
     width: 80%;
     font-size: 1.5rem;
     height: auto;
